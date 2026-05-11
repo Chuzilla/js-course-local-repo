@@ -6,12 +6,12 @@
         <h1>Score board:</h1>
         <h2 id="count-el">0</h2>
         <br/>
-        <h2 id="localteam" >Local</h2>
-        <h2 id="localcount">0</h2>
-        <h2 id="awayteam">Away</h2>
-        <h2 id="awaycount">0</h2>
-        <button id="increment-local-btn" onclick="incrementLocal()">INCREMENT</button>
-        <button id="increment-away-btn" onclick="incrementAway()">INCREMENT</button>
+        <div id="localteam" >Local</div>
+        <div id="localcount">0</div>
+        <div id="awayteam">Away</div>
+        <div id="awaycount">0</div>
+        <button id="increment-local-btn" onclick="incrementLocal()" class="button">Local team</button>
+        <button id="increment-away-btn" onclick="incrementAway()" class="button">Visitor</button>
         <button id="save-btn" onclick="save()">SAVE</button>
         <p id="save-el">Previous entries: </p>
         <script src="index.js">
